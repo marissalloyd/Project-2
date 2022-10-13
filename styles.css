@@ -2,6 +2,9 @@
 * {
 
 }
+.midpage {
+    background-color: white; 
+}
 #studentname {
     font-family: arial;
     font-weight: bold;
@@ -40,8 +43,9 @@
 }
 .head4midpg {
     display:fixed;
+    padding-top: 2%;
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    font-size: 110%;
+    font-size: 120%;
     font-weight: lighter;
     text-align: center;
 }
@@ -57,7 +61,7 @@
 }
 #pfr1 {
    margin-left: 12%;
-   margin-right: 23%;
+   margin-right: 25%;
 }
 #pfr2 {
    margin-right: 28%;
@@ -74,7 +78,7 @@
     margin-left: 7%;
 }
 #dfr2{
-    margin-right: 3%;
+    margin-right: 1%;
     position: center;
 }
 #dfr3 {
@@ -94,14 +98,14 @@
     text-align: center;
 }
 #psr1 {
-    margin-left: 7%;
+    margin-left: 9%;
    margin-right: 23%;
 }
 #psr2 {
-    margin-left:-3%;
+    margin-left: 1%;
 }
 #psr3 {
-    margin-left: 23%;
+    margin-left: 26%;
 }
 .descriptionsecondrow {
     margin-top: -3%;
@@ -112,16 +116,42 @@
     justify-content: space-between;
 }
 .dsr1 {
-    margin-left: 3%;
+    margin-left: 7%;
 }
 .dsr2 {
-    margin-left: 3%;
+    margin-left: 1%;
 }
 .dsr3 {
-    margin-right: 6%;
+    margin-right: 8%;
 }
 .footer {
-    background-color: red;
+    margin-top: 5%;
+    display:relative;
+    margin-left: 0%;
+    text-align:center;
+}
+.contactheading {
+    padding-bottom: 0;
+}
+.footerparagraph {
+    font-size: 120%;
+}
+#studentnamebottom {
+    text-align: left;
+    font-size: 20px;
+    margin-bottom: -5%;
+    margin-left: 2%;
+}
+.flex-container1 {
+    font-size: small;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    padding-right: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    text-align: right;
+    margin-bottom: -5%;
+    padding-top: 3%;
 }
 @media screen and (min-width: 689px) {
     body {
