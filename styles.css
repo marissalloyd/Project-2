@@ -30,8 +30,10 @@
     font-size: 90%;
 }
 .profileimage {
-    margin-left: 55%;
-    margin-top: -11%
+    position:relative;
+    float:right;
+    padding-top: 1%;
+    margin-top: -10%;
 }
 .middlepage {
     color: #656565;
@@ -40,70 +42,92 @@
     display:fixed;
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     font-size: 110%;
+    font-weight: lighter;
     text-align: center;
 }
-.portfoliopic1 {
-    display: fixed;
-    flex-direction: row;
+.imagefirstrow {
+    display: flex;
+    justify-content: space-around;
+}
+.paragraphfirstrow {
+    font-size: 150%;
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+}
+#pfr1 {
+   margin-left: 9%;
+   margin-right: 23%;
+}
+#pfr2 {
+   margin-right: 25%;
+}
+.descriptionfirstrow {
+    margin-top: -3%;
+    padding-right: 1%;
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+#dfr1 {
     margin-left: 3%;
-    width: 30%;
 }
-#marketingpg {
-    display:fixed;
-    font-size: medium;
-    padding-top: 0;
-    padding-bottom: 0;
-    margin-left: 11%;
+#dfr2{
+    position: center;
 }
-#marketingpgp {
-    display: fixed;
-    text-align: center;
-    margin-top: 1%;
-    margin-left: -65%;
-    padding-top: 0;
+#dfr3 {
+    position: center;
+    margin-right: 5%;
 }
-.portfoliopic2 {
-    display:fixed; 
-    width: 30%;
+.imagessecondrow {
     display: flex;
-    margin-top: -34%;
-    margin-left: 36%;
+    justify-content: space-around;
 }
-#searchpage {
+.paragraphsecondrow {
     display: fixed;
-    font-size: medium;
-    padding-top: 0;
-    padding-bottom: 0;
-    margin-left: 47%;
-}
-#searchpagep {
-    display: fixed;
-    text-align: center;
-    margin-top: 1%;
-    margin-left: 4%;
-    padding-top: 0;
-}
-.portfoliopic3 {
-    display:fixed;
-    width: 30%;
+    font-size: 150%;
+    flex-direction: row;
     display: flex;
-    margin-top: -33.5%;
-    margin-left:69%;
-}
-#travelapp {
-    display:fixed;
-    font-size: medium;
-    margin-left: 80%;
-    margin-top: 3%;
-}
-#travelappp {
-    display:fixed;
+    flex-wrap: wrap;
     text-align: center;
-    margin-top: 1%;
-    margin-left: 68%;
-    padding-top: 0;
+}
+#psr1 {
+    margin-left: 7%;
+   margin-right: 23%;
+}
+#psr2 {
+    margin-left:-3%;
+}
+#psr3 {
+    margin-left: 23%;
+}
+.descriptionsecondrow {
+    margin-top: -3%;
+    padding-right: 1%;
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.dsr1 {
+    margin-left: 3%;
+}
+.dsr2 {
+    margin-left: 3%;
+}
+.dsr3 {
+    margin-right: 6%;
+}
+.footer {
+    background-color: red;
 }
 @media screen and (min-width: 320px) {
     body {
       background-color: white;
     }
+@media screen and (max-width:1400px) {
+    .column {
+        width: 100%
+    }
+}
