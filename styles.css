@@ -42,11 +42,12 @@
     color: #656565;
 }
 .head4midpg {
+    color: darkslategray;
     display:fixed;
     padding-top: 2%;
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     font-size: 120%;
-    font-weight: lighter;
+    font-weight: bold;
     text-align: center;
 }
 .imagefirstrow {
@@ -54,6 +55,7 @@
     justify-content: space-around;
 }
 .paragraphfirstrow {
+    color:grey;
     font-size: 150%;
     display: flex;
     flex-wrap: wrap;
@@ -67,12 +69,14 @@
    margin-right: 28%;
 }
 .descriptionfirstrow {
+    color:grey;
     margin-top: -3%;
     padding-right: 1%;
     text-align: center;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
+    padding-bottom: 3%;
 }
 #dfr1 {
     margin-left: 7%;
@@ -90,6 +94,7 @@
     justify-content: space-around;
 }
 .paragraphsecondrow {
+    color: grey;
     display: fixed;
     font-size: 150%;
     flex-direction: row;
@@ -108,12 +113,14 @@
     margin-left: 26%;
 }
 .descriptionsecondrow {
+    color: grey;
     margin-top: -3%;
     padding-right: 1%;
     text-align: center;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
+    padding-bottom: 3%;
 }
 .dsr1 {
     margin-left: 7%;
@@ -131,15 +138,29 @@
     text-align:center;
 }
 .contactheading {
-    padding-bottom: 0;
+    font-size: 15px;
+    color: grey;
+    font-family:Arial, Helvetica, sans-serif;
+    padding-bottom: 1%;
 }
 .footerparagraph {
+    color: lightslategrey;
     font-size: 120%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#phone {
+    padding-top: 2%;
+    color: slategray;
+    font-size: 20px;
+}
+#email {
+    color: slategrey;
+    font-size: 20px;
 }
 #studentnamebottom {
-    color: darkslategrey;
+    color: darkslategray;
     text-align: left;
-    font-size: 16px;
+    font-size: 17px;
     margin-bottom: -5%;
     margin-left: 2%;
 }
