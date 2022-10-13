@@ -55,18 +55,13 @@
     justify-content: space-around;
 }
 .paragraphfirstrow {
-    color:grey;
     font-size: 150%;
+    color: grey;
     display: flex;
-    flex-wrap: wrap;
-    text-align: center;
-}
-#pfr1 {
-   margin-left: 12%;
-   margin-right: 25%;
-}
-#pfr2 {
-   margin-right: 28%;
+    justify-content: space-between;
+    padding-left: 12%;
+    padding-bottom: 1%;
+    padding-right: 13%;
 }
 .descriptionfirstrow {
     color:grey;
@@ -180,13 +175,4 @@ hr {
     background-color: lightgray;
     height: 1px;
     border: 0;
-}
-@media screen and (min-width: 689px) {
-    body {
-      background-color: white;
-    }
-@media screen and (max-width:1400px) {
-    .column {
-        width: 100%
-    }
 }
