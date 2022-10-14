@@ -181,6 +181,35 @@ hr {
     font-size: 60%;
     margin: 5% 0 0 3%;
     }
+    .head4midpg {
+        font-size: 50%;
+    }
+    .introparagraph {
+        font-size: 8px;
+    }
+    .paragraphfirstrow {
+        font-size: 2px;
+        padding-top: 1%;
+        font-size: 10%;
+        padding-top: 2%;
+    }
+    .paragraphsecondrow {
+        font-size: 2px;
+        padding-top: 1%;
+        padding-right: 1%;
+    }
+    .contactheading {
+        font-size: 10%;
+    }
+    .footerparagraph {
+        font-size: 30%;
+    }
+    #phone {
+        font-size: 58%;
+    }
+    #email {
+        font-size: 100%;
+    }
 }
 @media screen and (max-width: 1024px) {
 
