@@ -176,44 +176,57 @@ hr {
     height: 1px;
     border: 0;
 }
-@media screen and (max-width:480px) /* mobile */ {
+@media screen and (min-width: 390px) and (max-width:844px) /* mobile */ {
     #studentname {
-    font-size: 60%;
+    font-size: 90%;
     margin: 5% 0 0 3%;
+    }
+    .taskbar {
+        text-size-adjust: 80%;
     }
     .head4midpg {
         font-size: 50%;
     }
     .introparagraph {
-        font-size: 8px;
+        font-size: 55%;
     }
     .paragraphfirstrow {
-        font-size: 2px;
-        padding-top: 1%;
-        font-size: 10%;
-        padding-top: 2%;
+        font-size: 70%;
+        padding-top: 0;
+        margin-right: -2%;
+        margin-left: -4%;
+    }
+    .descriptionfirstrow {
+        font-size: 30%;
+        margin-left: -9%;
     }
     .paragraphsecondrow {
-        font-size: 2px;
+        font-size: 10%;
         padding-top: 1%;
-        padding-right: 1%;
+        padding-right: 8%;
+    }
+    .descriptionsecondrow {
+        font-size: 10%;
+        justify-content: space-between;
+    }
+    .dsr1 {
+        margin-left: 4%;
     }
     .contactheading {
-        font-size: 10%;
+        font-size: 50%;
     }
     .footerparagraph {
         font-size: 30%;
     }
     #phone {
-        font-size: 58%;
+        font-size: 70%;
     }
     #email {
-        font-size: 100%;
+        font-size: 70%;
     }
-}
-@media screen and (max-width: 1024px) {
-
-}
-@media screen and (max-width: 1200px) {
-
-}
+    #studentnamebottom {
+        font-size: 80%;
+    }
+    .flex-container1 {
+        padding-top:0;
+    }
