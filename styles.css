@@ -176,3 +176,15 @@ hr {
     height: 1px;
     border: 0;
 }
+@media screen and (max-width:480px) /* mobile */ {
+    #studentname {
+    font-size: 60%;
+    margin: 5% 0 0 3%;
+    }
+}
+@media screen and (max-width: 1024px) {
+
+}
+@media screen and (max-width: 1200px) {
+
+}
