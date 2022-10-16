@@ -3,7 +3,7 @@
 
 }
 .midpage {
-    background-color: white; 
+    background-color: white;
 }
 #studentname {
     font-family: arial;
@@ -204,6 +204,7 @@ hr {
         padding-top: 40%;
     }
     .head4midpg {
+        margin-top: 5%;
         padding-top: 3%;
         margin-left: 5%;
     }
@@ -269,6 +270,7 @@ hr {
         flex-direction: column;
     }
     .bluemapsimg {
+        margin-top: -3%;
         padding-bottom: 15%;
     }
     .purplecalendarimg {
@@ -279,32 +281,57 @@ hr {
         display: flex;
         flex-direction: column;
         text-align: center;
-        margin-top: -110%;
-        margin-left: 18%;
     }
     #psr1 {
-        margin-top: 30%;
-        margin-left: 5%;
-        padding-bottom: 45%;
+        margin-left: 27%;
+        margin-top: -87%;
     }
     #psr2 {
-        margin-right: 15%;
+        margin-top: 36%;
+        margin-left: 8%;
         padding-bottom: 47%;
     }
     #psr3 {
-        margin-right: 35%;
+        margin-top: -10%;
+        margin-right: 18%;
     }
     .descriptionsecondrow {
-        margin-top: -115%;
         display: flex;
         flex-direction: column;
     }
     .dsr1 {
-        margin-top: 10%;
-        padding-bottom: 25%;
+        margin-top: -92%;
     }
     .dsr2 {
+        margin-top: 2%;
         margin-left: 5%;
+    }
+    #psr3 {
+        margin-bottom: 5%;
+    }
+    .dsr3 {
+        margin-bottom: -8%;
+        margin-left: 10%;
+    }
+    .footer {
+        margin-bottom: 10%;
+    }
+    .footerparagraph {
+        font-size: 100%;
+    }
+    #phone {
+        font-size: 15px;
+    }
+    #email {
+        font-size: 15px;
+    }
+    .midpage {
+        padding-bottom: 10%;
+    }
+    .flex-container1 {
+        margin-left: 3%;
+        margin-top: -1%;
+        padding-bottom: 1%;
     }
 /* tablet screens */
 @media screen and (min-width=768px) and (max-width: 1024px) {
