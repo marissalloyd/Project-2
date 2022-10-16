@@ -13,7 +13,7 @@
     color: #333333;
 }
 .flex-container {
-    font-size: small;
+    font-size: medium;
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     padding-right: 20px;
     display: flex;
@@ -21,11 +21,12 @@
     justify-content: flex-end;
 }
 .introparagraph {
+    font-size: 100%;
     margin: 0 1% 0 2%;
     background-color: #f5f5f5;
-    padding: .5% 2% 10% 2%; 
+    padding: 0% 2% 10% 2%; 
 }
-#paragraph1 {
+.paragraph1 {
     color: #949494;
     text-align: justify;
     margin-top: 2%;
@@ -60,7 +61,7 @@
     display: flex;
     justify-content: space-between;
     padding-left: 12%;
-    padding-bottom: 1%;
+    padding-bottom: 0;
     padding-right: 13%;
 }
 .descriptionfirstrow {
@@ -102,10 +103,10 @@
    margin-right: 23%;
 }
 #psr2 {
-    margin-left: 1%;
+    margin-right: 5%;
 }
 #psr3 {
-    margin-left: 26%;
+    margin-left: 22%;
 }
 .descriptionsecondrow {
     color: grey;
@@ -124,7 +125,7 @@
     margin-left: 1%;
 }
 .dsr3 {
-    margin-right: 8%;
+    margin-right: 7%;
 }
 .footer {
     margin-top: 5%;
@@ -169,64 +170,144 @@
     justify-content: flex-end;
     text-align: right;
     margin-bottom: -5%;
-    padding-top: 3%;
+    padding-top: 1.5%;
 }
 hr {
     background-color: lightgray;
     height: 1px;
     border: 0;
 }
-@media screen and (min-width: 390px) and (max-width:844px) /* mobile */ {
+/* mobile screens */
+@media screen and (min-width: 320px) and (max-width:768px) {
     #studentname {
-    font-size: 90%;
-    margin: 5% 0 0 3%;
+        margin-left: 44%;
+
+    }.flex-container {
+        margin-left: 7%;
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        padding-top: 2%;
     }
-    .taskbar {
-        text-size-adjust: 80%;
+    .profileimage {
+        width: 50%;
+        display: fixed;
+        margin-top: -85%;
+        margin-right:20%;
+        padding-top: 30%;
+    }
+    .paragraph1 {
+        text-align: center;
+        display:flex;
+        flex-wrap: wrap;
+        margin-left:10%;
+        padding-top: 40%;
     }
     .head4midpg {
-        font-size: 50%;
+        padding-top: 3%;
+        margin-left: 5%;
     }
-    .introparagraph {
-        font-size: 55%;
+    .imagefirstrow {
+        margin-left: 30%;
+        width: 140%;
+        display: flex;
+        flex-direction: column;
     }
     .paragraphfirstrow {
-        font-size: 70%;
-        padding-top: 0;
-        margin-right: -2%;
-        margin-left: -4%;
+        font-size: 125%;
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        margin-top: -93%;
     }
     .descriptionfirstrow {
-        font-size: 30%;
-        margin-left: -9%;
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        margin-right: 10%;
+        margin-top: -115%;
     }
-    .paragraphsecondrow {
-        font-size: 10%;
-        padding-top: 1%;
-        padding-right: 8%;
+    .lightbluemarketingimg {
+        padding-bottom: 15%;
+    }
+    #pfr1 {
+        padding-bottom: 2%;
+        margin-bottom: 45%;
+        margin-left: 7%;
+    }
+    #dfr1 {
+        margin-left: 15%;
+        margin-top: 0;
+        padding-bottom: 32%;
+    }
+    .yellowsearchimg {
+        padding-bottom: 15%;
+    }
+    #pfr2 {
+        margin-top: 8%;
+        margin-bottom: 59%;
+        margin-left: 8%;
+    }
+    #dfr2 {
+        padding-bottom: 32%;
+        margin-left:20%;
+       
+    }
+    #pfr3 {
+        margin-top: -3%;
+        padding-bottom: 30%;
+        margin-left: 6%;
+    }
+    #dfr3 {
+        padding-top: 2%;
+        margin-left: 22%;
+    }
+    .imagessecondrow {
+        margin-left: 30%;
+        width: 140%;
+        display: flex;
+        flex-direction: column;
+    }
+    .bluemapsimg {
+        padding-bottom: 15%;
+    }
+    .purplecalendarimg {
+        padding-bottom: 15%;
+    }
+    .paragraphsecondrow{
+        font-size: 125%;
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        margin-top: -110%;
+        margin-left: 18%;
+    }
+    #psr1 {
+        margin-top: 30%;
+        margin-left: 5%;
+        padding-bottom: 45%;
+    }
+    #psr2 {
+        margin-right: 15%;
+        padding-bottom: 47%;
+    }
+    #psr3 {
+        margin-right: 35%;
     }
     .descriptionsecondrow {
-        font-size: 10%;
-        justify-content: space-between;
+        margin-top: -115%;
+        display: flex;
+        flex-direction: column;
     }
     .dsr1 {
-        margin-left: 4%;
+        margin-top: 10%;
+        padding-bottom: 25%;
     }
-    .contactheading {
-        font-size: 50%;
+    .dsr2 {
+        margin-left: 5%;
     }
-    .footerparagraph {
-        font-size: 30%;
-    }
-    #phone {
-        font-size: 70%;
-    }
-    #email {
-        font-size: 70%;
-    }
-    #studentnamebottom {
-        font-size: 80%;
-    }
-    .flex-container1 {
-        padding-top:0;
-    }
+/* tablet screens */
+@media screen and (min-width=768px) and (max-width: 1024px) {
+
+}
+
