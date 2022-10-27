@@ -179,165 +179,237 @@ hr {
     height: 1px;
     border: 0;
 }
-
-@media screen and (min-width:1100px) {
- 
-body {
-    font-size: 80%;
-}
-#psr3 {
-    margin-left: 23%;
-}
-}
-
-@media screen and (min-width:768px) {
+/*--smaller screens---*/
+@media screen and (min-width:768px) and (max-width:1024px) {
     body {
-        font-size: 50%;
-    }
-    #studentname {
-        font-size: 15px;
-        margin-left: 50%;
-    }
-    .introparagraph {
-        padding-top: 1%;
-        display:flex;
-        flex-direction: column-reverse;
-        margin-left: 40%;
-    }
-    .paragraph1 {
+        font-size: 90%;
+     }
+     #studentname {
         text-align: center;
-        margin-right: 50%;
+     }
+     .flex-container {
+        margin-left: 2%;
+        font-size: small;
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        padding-bottom: 2%;
+     }
+     .introparagraph {
+        display: flex;
+        flex-direction: column-reverse;
     }
-    .profileimage {
+     .paragraph1 {
+        margin-left: 5%;
+        text-align: center;
+     }
+     .profileimage {
+        padding-top: 8%;
+        width: 25%;
         height: auto;
-        width: 50%;
+        margin-left: 39%;
+     }
+     .head4midpg {
+        text-align: center;
+        margin-left: 5%;
+     }
+     .imagefirstrow {
+        display: flex;
+        flex-direction: column;
+        margin-left: 43%;
+     }
+     .lightbluemarketingimg {
+        padding-bottom: 15%;
+     }
+     .yellowsearchimg {
+        padding-bottom: 15%;
+     }
+     .descriptionfirstrow {
+        font-size: 80%;
+        display:flex;
+        flex-direction: column;
+     }
+     .imagessecondrow {
+        margin-left: 43%;
+        display: flex;
+        flex-direction: column;
+     }
+     .bluemapsimg {
+        padding-bottom: 15%;
+     }
+     .purplecalendarimg {
+        padding-bottom: 15%;
+     }
+     .paragraphsecondrow {
+        font-size: 100%;
+        margin-top: -38%;
+        display: flex;
+        flex-direction: column;
+     }
+     #psr1 {
+        margin-left: 25%;
+        padding-bottom: 9%;
+     }
+     #psr2 {
+        padding-top: 4%;
+        margin-left: 3%;
+        padding-bottom: 11%;
+     }
+     #psr3 {
+        margin-right: 22%;
+        padding-top: 3%;
+     }
+     .descriptionsecondrow {
+        font-size: 80%;
+        margin-top: -40%;
+        display: flex;
+        flex-direction: column;
+     }
+     .dsr1 {
+        margin-right: 3%;
+        padding-bottom: 10%;
+     }
+     .dsr2 {
+        padding-top: 1%;
+        margin-left: 5%;
+        padding-bottom: 11%;
+     }
+     .dsr3 {
+        padding-top: 2%;
+        margin-left: 10%;
+     }
+     .contactheading {
+        margin-left: 3%;
+     }
+     .footerparagraph {
+        font-size: 100%;
+     }
+     #email {
+        font-size: 15px;
+     }
+     #phone {
+        font-size: 15px;
+     }
+     #studentnamebottom {
+        font-size: 15px;
+     }
+     .flex-container1 {
+        font-size: smaller;
+     }
+}
+/*--bigger screens---*/
+@media screen and (min-width:1025px) and (max-width:1200px) {
 
+    #studentname {
+        text-align: center;
     }
     .flex-container {
-        font-size: smaller;
-        margin-left: 8%;
-        padding-bottom: 2%;
-        text-align: center;
-        display: flex;
-        flex-direction: column;
+        font-size: small;
+        margin-right: 13%;
     }
     .head4midpg {
-        margin-left: 11%;
-        text-align: center;
+        margin-left: 9%;
     }
-    .imagefirstrow {
+    .paragraph1 {
         display: flex;
-        flex-direction: column;
-        margin-left: 47%;
-    }
-    .lightbluemarketingimg {
-        padding-bottom: 15%;
-    }
-    .yellowsearchimg {
-        padding-bottom: 15%;
-    }
-    .bluetravelimg {
-        padding-bottom: 15%;
-    }
-    .paragraphfirstrow {
-        margin-top: -45%;
-        margin-left: 49%;
-        display: flex;
-        flex-direction: column;
+        flex-direction: row;
+        font-size: auto;
     }
     #pfr1 {
-        padding-top: 5%;
-    }
-    #pfr2 {
-        padding-top: 27%;
-        margin-left: 4%
-    }
-    #pfr3 {
-        margin-left: 5%;
-        padding-top: 29%;
-    }
-    .descriptionfirstrow {
-        margin-top: -37%;
-        display:flex;
-        flex-direction: column;
+        text-align: center;
+        margin-top: -45%;
+        margin-left: 23%;
     }
     #dfr1 {
-        margin-left:10%;
-        padding-bottom: 10%;
+        margin-top: -28%;
+        margin-left: 20%;
+    }
+    #pfr2 {
+        text-align: center;
+        margin-right: 6%;
+        margin-top: -45%;
     }
     #dfr2 {
-        padding-bottom:10%;
-        margin-left: 10%;
+        margin-right: 10%;
+        margin-top: -29%;
+    }
+    #pfr3 { 
+        position: absolute;
+        margin-left: 20%;
+        
     }
     #dfr3 {
-        text-align: center;
-        margin-left: 18%;
-
+        margin-top: 10%;
+        margin-left: 22%;
+        padding-bottom: 5%;
     }
-    .imagessecondrow {
-        display: flex;
-        flex-direction: column;
-        margin-left: 47%;
-        top: 40px;
+    .imagefirstrow {
+        display: inline;
     }
-    .paragraphsecondrow {
-        display: flex;
-        flex-direction: column;
-        margin-top: -35%;
+    .lightbluemarketingimg {
+        padding-bottom: 10%;
+        margin-left: 20%;
+        padding-right: 10%;
     }
-    #psr1 {
-        margin-left: 33%;
+    .yellowsearchimg {
+        display: inline-block;
         padding-bottom: 10%;
     }
-    #psr2 {
-        margin-left: 10%;
-        padding-bottom: 11%;
-
+    .bluetravelimg {
+        padding-top: 10%;
+        margin-bottom: -2%;
+        position: block;
+        margin-left: 20%;
     }
-    #psr3 {
-        margin-right: 15%;
-    }
-    .descriptionsecondrow {
-        display: flex;
-        flex-direction: column;
-        margin-top: -36%;
-        margin-left: 4%;
-    }
-    .dsr1 {
-        padding-bottom: 9%;
-    }
-    .dsr2 {
-        margin-left: 7%;
-        padding-bottom: 11%;
-    }
-    .dsr3 {
-        margin-left: 12%;
+    .imagessecondrow {
+        display:inline;
     }
     .bluemapsimg {
-        padding-bottom: 15%;
+        padding-top: 10%;
+        margin-top: -47%;
+        margin-left: 60%;
+        display: block;
     }
     .purplecalendarimg {
-        padding-bottom: 15%;
+        padding-top: 15%;
+        margin-left: 20%;
+        display: inline;
     }
-    .contactheading {
-        margin-left: 8%;
+    .graypasswordimg {
+        padding-left: 10%;
+        display: inline-block;
     }
-    .footerparagraph {
-        font-size:100%;
-        margin-left: 7%;
+    #psr1 {
+        white-space: nowrap;
+        margin-top: -31%;
+        margin-left: 65%;
+    } 
+    #psr2 {
+        margin-top: 1%;
+        margin-left: 28%;
+        padding-bottom: 2%;
     }
-    #phone {
-        margin-left: 5%;
-        font-size: 10px;
+    #psr3 {
+        margin-top: 1%;
+        position: absolute;
+        left: 45%;
     }
-    #email {
-        font-size: 10px;
-        margin-left: 6%;
+    .descriptionsecondrow {
+        display: inline;
     }
-    .flex-container1 {
-        font-size: smaller;
+    .dsr1 {
+        margin-top: -37%;
+        margin-left: 50%;
     }
-    #studentnamebottom {
-        font-size: 12px;
+    .dsr2 {
+        display: inline-block;
+        margin-left: 20%;
+        margin-top: 25%;
     }
+    .dsr3 {
+        display: block;
+        margin-left: 58%;
+        margin-top: -8%;
+    }
+
 }
