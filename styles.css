@@ -224,10 +224,48 @@ hr {
      .yellowsearchimg {
         padding-bottom: 15%;
      }
+     .paragraphfirstrow {
+        font-size: 90%;
+        display: inline;
+        position: absolute;
+        margin-top: -38%;
+     }
+     #pfr1 {
+        white-space: nowrap;
+        margin-left: 365%;
+        padding-bottom: 54%;
+        padding-top: 5%;
+     }
+     #pfr2 {
+        position: absolute;
+        display: inline-block;
+        margin-left: 160%;
+        margin-top: 40%;
+        white-space: nowrap;
+     }
+     #pfr3 {
+        display: block;
+        position: absolute;
+        margin-top: 120%;
+        margin-left: 165%;
+        white-space: nowrap;
+     }
      .descriptionfirstrow {
         font-size: 80%;
+        margin-top: -35%;
         display:flex;
         flex-direction: column;
+     }
+     #dfr1 {
+        margin-right: 3%;
+        padding-bottom: 10%;
+     }
+     #dfr2 {
+        margin-left: 3%;
+     }
+     #dfr3 {
+        margin-top: 13%;
+        margin-left: 10%;
      }
      .imagessecondrow {
         margin-left: 43%;
@@ -238,6 +276,7 @@ hr {
         padding-bottom: 15%;
      }
      .purplecalendarimg {
+        padding-top:5%;
         padding-bottom: 15%;
      }
      .paragraphsecondrow {
@@ -247,17 +286,18 @@ hr {
         flex-direction: column;
      }
      #psr1 {
+        margin-top: 0;
         margin-left: 25%;
         padding-bottom: 9%;
      }
      #psr2 {
-        padding-top: 4%;
+        padding-top: 5%;
         margin-left: 3%;
-        padding-bottom: 11%;
+        padding-bottom: 7%;
      }
      #psr3 {
         margin-right: 22%;
-        padding-top: 3%;
+        padding-top: 7%;
      }
      .descriptionsecondrow {
         font-size: 80%;
@@ -266,11 +306,12 @@ hr {
         flex-direction: column;
      }
      .dsr1 {
+        margin-top: -1%;
         margin-right: 3%;
         padding-bottom: 10%;
      }
      .dsr2 {
-        padding-top: 1%;
+        padding-top: 2%;
         margin-left: 5%;
         padding-bottom: 11%;
      }
@@ -296,120 +337,4 @@ hr {
      .flex-container1 {
         font-size: smaller;
      }
-}
-/*--bigger screens---*/
-@media screen and (min-width:1025px) and (max-width:1200px) {
-
-    #studentname {
-        text-align: center;
-    }
-    .flex-container {
-        font-size: small;
-        margin-right: 13%;
-    }
-    .head4midpg {
-        margin-left: 9%;
-    }
-    .paragraph1 {
-        display: flex;
-        flex-direction: row;
-        font-size: auto;
-    }
-    #pfr1 {
-        text-align: center;
-        margin-top: -45%;
-        margin-left: 23%;
-    }
-    #dfr1 {
-        margin-top: -28%;
-        margin-left: 20%;
-    }
-    #pfr2 {
-        text-align: center;
-        margin-right: 6%;
-        margin-top: -45%;
-    }
-    #dfr2 {
-        margin-right: 10%;
-        margin-top: -29%;
-    }
-    #pfr3 { 
-        position: absolute;
-        margin-left: 20%;
-        
-    }
-    #dfr3 {
-        margin-top: 10%;
-        margin-left: 22%;
-        padding-bottom: 5%;
-    }
-    .imagefirstrow {
-        display: inline;
-    }
-    .lightbluemarketingimg {
-        padding-bottom: 10%;
-        margin-left: 20%;
-        padding-right: 10%;
-    }
-    .yellowsearchimg {
-        display: inline-block;
-        padding-bottom: 10%;
-    }
-    .bluetravelimg {
-        padding-top: 10%;
-        margin-bottom: -2%;
-        position: block;
-        margin-left: 20%;
-    }
-    .imagessecondrow {
-        display:inline;
-    }
-    .bluemapsimg {
-        padding-top: 10%;
-        margin-top: -47%;
-        margin-left: 60%;
-        display: block;
-    }
-    .purplecalendarimg {
-        padding-top: 15%;
-        margin-left: 20%;
-        display: inline;
-    }
-    .graypasswordimg {
-        padding-left: 10%;
-        display: inline-block;
-    }
-    #psr1 {
-        white-space: nowrap;
-        margin-top: -31%;
-        margin-left: 65%;
-    } 
-    #psr2 {
-        margin-top: 1%;
-        margin-left: 28%;
-        padding-bottom: 2%;
-    }
-    #psr3 {
-        margin-top: 1%;
-        position: absolute;
-        left: 45%;
-    }
-    .descriptionsecondrow {
-        display: inline;
-    }
-    .dsr1 {
-        margin-top: -37%;
-        margin-left: 50%;
-    }
-    .dsr2 {
-        display: inline-block;
-        margin-left: 20%;
-        margin-top: 25%;
-    }
-    .dsr3 {
-        display: block;
-        margin-left: 58%;
-        margin-top: -8%;
-    }
-
 }
